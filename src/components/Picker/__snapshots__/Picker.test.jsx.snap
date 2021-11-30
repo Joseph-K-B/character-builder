@@ -25,7 +25,13 @@ Object {
           </select>
         </div>
         <div>
+          <label
+            for="torso"
+          >
+            Torso
+          </label>
           <select
+            id="torso"
             name="torso"
           >
             <option>
@@ -37,7 +43,13 @@ Object {
           </select>
         </div>
         <div>
+          <label
+            for="torso"
+          >
+            Bottom
+          </label>
           <select
+            id="bottom"
             name="bottom"
           >
             <option>
@@ -69,7 +81,13 @@ Object {
         </select>
       </div>
       <div>
+        <label
+          for="torso"
+        >
+          Torso
+        </label>
         <select
+          id="torso"
           name="torso"
         >
           <option>
@@ -81,7 +99,13 @@ Object {
         </select>
       </div>
       <div>
+        <label
+          for="torso"
+        >
+          Bottom
+        </label>
         <select
+          id="bottom"
           name="bottom"
         >
           <option>

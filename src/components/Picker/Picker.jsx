@@ -22,14 +22,16 @@ function Picker({
                 </select>
             </div>
             <div>
-                <select name='torso' key='torso-select' value={torso} onChange={(e) => setTorso(e.target.value)}>
+            <label htmlFor='torso'>Torso</label>
+                <select id='torso' name='torso' key='torso-select' value={torso} onChange={(e) => setTorso(e.target.value)}>
                     {torsos.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
                 </select>
             </div>
             <div>
-                <select name='bottom' key='bottom-select' value={bottom} onChange={(e) => setBottom(e.target.value)}>
+            <label htmlFor='torso'>Bottom</label>
+                <select id='bottom' name='bottom' key='bottom-select' value={bottom} onChange={(e) => setBottom(e.target.value)}>
                     {bottoms.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
