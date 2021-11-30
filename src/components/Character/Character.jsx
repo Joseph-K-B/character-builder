@@ -9,8 +9,11 @@ function Character({
             <div
             value={head}
             onChange={(e) => setHead(e.target.value)}
-            style={{ 
-                backgroundImage: `url(./public/${head}-head.png)` 
+            style={{
+                height: '100px',
+                width: '100px',
+                backgroundSize: '10rem',
+                backgroundImage: `url(./${head}-head.png)` 
               }}>
 
             </div>

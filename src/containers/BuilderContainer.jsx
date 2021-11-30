@@ -3,14 +3,16 @@ import Character from "../components/Character/Character";
 import Picker from "../components/Picker/Picker";
 
 function BuilderContainer() {
-    const [head, setHead] = useState('')
+    const [head, setHead] = useState('dog')
 
     return (
         <main>
             <Picker
             head={head}
             setHead={setHead} />
-            <Character />
+            <Character
+            head={head}
+            setHead={setHead} />
         </main>
     )
 }
