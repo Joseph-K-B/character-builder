@@ -1,11 +1,8 @@
 import React from 'react';
 import Stats from './Stats';
 
-function StatList ({
-    catchPhraseArr, 
- }){
-
-    const arr = catchPhraseArr.map(({catchPhrase = null}) => {
+function StatList({ catchPhraseArr }){
+    catchPhraseArr.map((catchPhrase) => {
     return (
         <>
             <li>
@@ -18,7 +15,7 @@ function StatList ({
     )
 })
 
-return <ul aria-label='catch-list'>{arr}</ul>
+return <ul aria-label='catch-list'>{catchPhraseArr}</ul>
 }
 
 

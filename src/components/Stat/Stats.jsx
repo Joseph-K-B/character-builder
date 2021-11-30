@@ -3,7 +3,9 @@ import React from "react";
 function Stats({
     catchPhrase,
     setCatchPhrase,
-    setCatchPhraseArr
+    catchPhraseArr,
+    setCatchPhraseArr,
+    handleClick
 }) {
     // const onButtonClick = () => {
     //     console.log('BUTTON')
@@ -21,7 +23,7 @@ function Stats({
                 onChange={(e) => setCatchPhrase(e.target.value)}    
             />
             <label htmlFor='catchphrase' />
-            <button onClick={setCatchPhraseArr = (prevState) => ([...prevState, catchPhrase])}>Submit</button>
+            <button onClick={handleClick}>Submit</button>
         </section>
     )
 }
