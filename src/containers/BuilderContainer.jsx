@@ -11,12 +11,12 @@ function BuilderContainer() {
     const [catchPhrase, setCatchPhrase] = useState('')
     const [catchPhraseArr, setCatchPhraseArr] = useState([])
 
-    const handleClick = () => {
-        console.log('BUTTON')
-        const newCatchPhrase = {catchPhrase}
-        const newCatchPhraseArr = (prevState) => ([...prevState, newCatchPhrase])
-        return newCatchPhraseArr
-    }
+    // const handleClick = () => {
+    //     console.log('BUTTON')
+    //     const newCatchPhrase = {catchPhrase}
+    //     const newCatchPhraseArr = (prevState) => ([...prevState, newCatchPhrase])
+    //     return newCatchPhraseArr
+    // }
 
     return (
         <>
@@ -40,7 +40,6 @@ function BuilderContainer() {
                 setCatchPhrase={setCatchPhrase}
                 catchPhraseArr={catchPhraseArr}
                 setCatchPhraseArr={setCatchPhraseArr}
-                onClick={handleClick}
             />
             <StatList 
                 catchPhrase={catchPhrase}

@@ -2,20 +2,16 @@ import React from 'react';
 import Stats from './Stats';
 
 function StatList ({
-    catchPhrase,
-    setCatchPhrase,
     catchPhraseArr, 
  }){
 
-    const arr = catchPhraseArr.map(({catchPhrase}) => {
+    const arr = catchPhraseArr.map(({catchPhrase = null}) => {
     return (
         <>
             <li>
                 <Stats
                     value={catchPhrase}
-                    onChange={(e) => setCatchPhrase(e.target.value)} 
                     key='list-item'
-                    catchPhrase={catchPhrase}
                 />
             </li>
         </>
