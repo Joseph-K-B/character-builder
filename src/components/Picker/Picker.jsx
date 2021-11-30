@@ -14,7 +14,8 @@ function Picker({
     return (
         <section>
             <div>
-                <select name='head' key='head-select' value={head} onChange={(e) => setHead(e.target.value)}>
+                <label htmlFor='head'>Head</label>
+                <select id='head' name='head' key='head-select' value={head} onChange={(e) => setHead(e.target.value)}>
                     {heads.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
