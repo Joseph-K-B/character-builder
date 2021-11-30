@@ -11,6 +11,7 @@ function Character({
     return (
         <section>
             <figure
+            data-testid='head'
             value={head}
             onChange={(e) => setHead(e.target.value)}
             style={{
@@ -22,6 +23,7 @@ function Character({
               }}>
             </figure>
             <figure
+            data-testid='torso'
             value={torso}
             onChange={(e) => setTorso(e.target.value)}
             style={{
@@ -33,6 +35,7 @@ function Character({
               }}>
             </figure>
             <figure
+            data-testid='bottom'
             value={bottom}
             onChange={(e) => setBottom(e.target.value)}
             style={{

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from "react";
 
 function Stats({
@@ -17,7 +18,8 @@ function Stats({
         <section>
             <input
                 id='catchphrase'
-                name='catchphrase' 
+                name='catchphrase'
+                data-testid='catchphrase-input' 
                 type='text' 
                 value={catchPhrase}
                 onChange={(e) => setCatchPhrase(e.target.value)}    

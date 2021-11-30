@@ -36,8 +36,6 @@ function BuilderContainer() {
             <Stats 
                 catchPhrase={catchPhrase}
                 setCatchPhrase={setCatchPhrase}
-                // catchPhraseArr={catchPhraseArr}
-                // setCatchPhraseArr={setCatchPhraseArr}
                 handleClick={handleClick}
             />
             <StatList
