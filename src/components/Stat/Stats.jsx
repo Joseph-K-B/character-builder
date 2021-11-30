@@ -4,9 +4,12 @@ function Stats({
     catchPhrase,
     setCatchphrase
 }) {
-    const onButtonClick = () => {
-        console.log('BUTTON')
-    }
+    // const onButtonClick = () => {
+    //     console.log('BUTTON')
+    //     const newCatchPhrase = {catchPhrase}
+    //     const newCatchPhraseArr = (prevState) => ([...prevState, newCatchPhrase])
+    //     return newCatchPhraseArr
+    // }
     return (
         <section>
             <input
@@ -14,10 +17,10 @@ function Stats({
                 name='catchphrase' 
                 type='text' 
                 value={catchPhrase}
-                onChange={(e) =>setCatchphrase(e.target.value)}    
+                onChange={(e) => setCatchphrase(e.target.value)}    
             />
             <label htmlFor='catchphrase' />
-            <button onClick={onButtonClick}>Submit</button>
+            <button onClick={setCatchphrase}>Submit</button>
         </section>
     )
 }

@@ -2,15 +2,18 @@ import React from 'react';
 import Stats from './Stats';
 
 function StatList ({
-    arr
+    catchPhrase,
+    setCatchPhrase,
+    catchPhraseArr, 
  }){
-     const catchPhrases = arr.map(({
-         catchPhrase
-     })
+
+    const arr = catchPhraseArr.map(({catchPhrase}) => {
     return (
         <>
             <li>
-                <Stats 
+                <Stats
+                    value={catchPhrase}
+                    onChange={(e) => setCatchPhrase(e.target.value)} 
                     key='list-item'
                     catchPhrase={catchPhrase}
                 />
@@ -19,6 +22,8 @@ function StatList ({
     )
 })
 
-return 
+return <ul aria-label='catch-list'>{arr}</ul>
+}
+
 
 export default StatList

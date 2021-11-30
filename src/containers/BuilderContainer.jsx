@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Character from "../components/Character/Character";
 import Picker from "../components/Picker/Picker";
 import Stats from "../components/Stat/Stats";
+import StatList from "../components/Stat/StatsList";
 
 function BuilderContainer() {
     const [head, setHead] = useState('dog')
@@ -10,9 +11,12 @@ function BuilderContainer() {
     const [catchPhrase, setCatchPhrase] = useState('')
     const [catchPhraseArr, setCatchPhraseArr] = useState([])
 
-    // const onButtonClick = () => {
-    //     console.log('BUTTON')
-    // }
+    const handleClick = () => {
+        console.log('BUTTON')
+        const newCatchPhrase = {catchPhrase}
+        const newCatchPhraseArr = (prevState) => ([...prevState, newCatchPhrase])
+        return newCatchPhraseArr
+    }
 
     return (
         <>
@@ -33,7 +37,16 @@ function BuilderContainer() {
             setBottom={setBottom} />
             <Stats 
                 catchPhrase={catchPhrase}
-                setCatchphrase={setCatchPhrase}
+                setCatchPhrase={setCatchPhrase}
+                catchPhraseArr={catchPhraseArr}
+                setCatchPhraseArr={setCatchPhraseArr}
+                onClick={handleClick}
+            />
+            <StatList 
+                catchPhrase={catchPhrase}
+                setCatchPhrase={setCatchPhrase}
+                catchPhraseArr={catchPhraseArr}
+                setCatchPhraseArr={setCatchPhraseArr}
             />
         </main>
         </>
