@@ -13,7 +13,7 @@ function BuilderContainer() {
 
     const handleClick = () => {
         console.log('BUTTON')
-        setCatchPhraseArr((prevState) => ([...prevState, {catchPhrase}]))
+        setCatchPhraseArr((prevState) => [...prevState, catchPhrase]);
     }
 
     return (
@@ -36,17 +36,14 @@ function BuilderContainer() {
             <Stats 
                 catchPhrase={catchPhrase}
                 setCatchPhrase={setCatchPhrase}
-                catchPhraseArr={catchPhraseArr}
+                // catchPhraseArr={catchPhraseArr}
                 // setCatchPhraseArr={setCatchPhraseArr}
                 handleClick={handleClick}
             />
-            {/* <StatList 
-                catchPhrase={catchPhrase}
-                setCatchPhrase={setCatchPhrase}
+            <StatList
+                key={catchPhrase} 
                 catchPhraseArr={catchPhraseArr}
-                setCatchPhraseArr={setCatchPhraseArr}
-                onClick={handleClick}
-            /> */}
+            />
         </main>
         </>
     )

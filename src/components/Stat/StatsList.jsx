@@ -1,21 +1,21 @@
 import React from 'react';
 import Stats from './Stats';
 
-function StatList({ catchPhraseArr }){
-    catchPhraseArr.map((catchPhrase) => {
-    return (
+function StatList({ 
+    catchPhraseArr
+ }){
+     return (
+     <div>
+    {catchPhraseArr.map((catchPhrase) => (
         <>
-            <li>
-                <Stats
-                    value={catchPhrase}
-                    key='list-item'
-                />
+            <li key={catchPhrase}>
+                {catchPhrase}
             </li>
         </>
-    )
-})
-
-return <ul aria-label='catch-list'>{catchPhraseArr}</ul>
+    ))}
+{/* <ul aria-label='catch-list'>{catchPhraseArr}</ul> */}
+</div>
+    );
 }
 
 

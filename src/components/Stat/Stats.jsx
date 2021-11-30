@@ -23,7 +23,7 @@ function Stats({
                 onChange={(e) => setCatchPhrase(e.target.value)}    
             />
             <label htmlFor='catchphrase' />
-            <button onClick={handleClick}>Submit</button>
+            <button type='button' onClick={handleClick}>Submit</button>
         </section>
     )
 }
