@@ -2,7 +2,7 @@ import React from "react";
 
 function Stats({
     catchPhrase,
-    setCatchphrase
+    setCatchPhrase
 }) {
     // const onButtonClick = () => {
     //     console.log('BUTTON')
@@ -17,10 +17,10 @@ function Stats({
                 name='catchphrase' 
                 type='text' 
                 value={catchPhrase}
-                onChange={(e) => setCatchphrase(e.target.value)}    
+                onChange={(e) => setCatchPhrase(e.target.value)}    
             />
             <label htmlFor='catchphrase' />
-            <button onClick={setCatchphrase}>Submit</button>
+            <button onClick={setCatchPhrase}>Submit</button>
         </section>
     )
 }
