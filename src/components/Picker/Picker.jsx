@@ -15,9 +15,9 @@ function Picker({
     bottomCount,
     setBottomCount
 }) {
-    const heads = ['dog', 'dog-2', 'dog-3', 'duck', 'horse','cat']
-    const torsos = ['leather', 'suit', 'pink']
-    const bottoms = ['jeans', 'white', 'blue']
+    const heads = ['dog', 'dog-2', 'dog-3', 'dog-4', 'dog-5', 'horse','cat', 'cat-2', 'cat-3']
+    const torsos = ['leather', 'suit', 'gray', 'firefighter', 'straight']
+    const bottoms = ['jeans', 'splatter', 'sweat', 'jort']
 
     const handleHeadChange= (e) => {
         setHead(e.target.value)
@@ -36,15 +36,15 @@ function Picker({
 
     return (
         <section className='image-controls'>
-            <div>
-                <label htmlFor='head'>Head</label>
+            <div className='head-control'>
+                <label htmlFor='head' className='head-label'>Head</label>
                 <select id='head' name='head' key='head-select' value={head} onChange={handleHeadChange}>
                     {heads.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
                 </select>
             </div>
-            <div>
+            <div className='torso-control'>
             <label htmlFor='torso'>Torso</label>
                 <select id='torso' name='torso' key='torso-select' value={torso} onChange={handleTorsoChange}>
                     {torsos.map((pic) => (
@@ -52,7 +52,7 @@ function Picker({
                     ))}
                 </select>
             </div>
-            <div>
+            <div className='bottom-control'>
             <label htmlFor='torso'>Bottom</label>
                 <select id='bottom' name='bottom' key='bottom-select' value={bottom} onChange={handleBottomChange}>
                     {bottoms.map((pic) => (

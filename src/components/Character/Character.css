@@ -15,17 +15,17 @@
 .torso-image{
     position: relative;
     top: 1.5%;
-    left: 27%;
+    left: 23.5%;
     height: 15.5rem;
     width: 15.5rem;
-    background-size: 10.5rem;
+    background-size: 12.5rem;
     background-repeat: no-repeat;
 }
 
 .bottom-image{
     position: relative;
-    top: -20.5%;
-    left: 18%;
+    top: -18.5%;
+    left: 18.0%;
     height: 15.5rem;
     width: 15.5rem;
     background-size: 15.5rem;

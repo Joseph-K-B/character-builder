@@ -5,8 +5,38 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 30%;
     width: 100%;
     background-color: #272838;
 }
+
+.head-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 3.0%;
+}
+
+.torso-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 3.0%;
+}
+
+.bottom-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin: 3.0%;
+}
+
+/* .head-label{
+    display: flex;
+    flex-direction: row;
+    margin: 3.0%;
+} */

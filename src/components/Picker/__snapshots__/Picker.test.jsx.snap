@@ -5,8 +5,11 @@ exports[`should render picker component 1`] = `
   <section
     class="image-controls"
   >
-    <div>
+    <div
+      class="head-control"
+    >
       <label
+        class="head-label"
         for="head"
       >
         Head
@@ -25,7 +28,10 @@ exports[`should render picker component 1`] = `
           dog-3
         </option>
         <option>
-          duck
+          dog-4
+        </option>
+        <option>
+          dog-5
         </option>
         <option>
           horse
@@ -33,9 +39,17 @@ exports[`should render picker component 1`] = `
         <option>
           cat
         </option>
+        <option>
+          cat-2
+        </option>
+        <option>
+          cat-3
+        </option>
       </select>
     </div>
-    <div>
+    <div
+      class="torso-control"
+    >
       <label
         for="torso"
       >
@@ -52,11 +66,19 @@ exports[`should render picker component 1`] = `
           suit
         </option>
         <option>
-          pink
+          gray
+        </option>
+        <option>
+          firefighter
+        </option>
+        <option>
+          straight
         </option>
       </select>
     </div>
-    <div>
+    <div
+      class="bottom-control"
+    >
       <label
         for="torso"
       >
@@ -70,10 +92,13 @@ exports[`should render picker component 1`] = `
           jeans
         </option>
         <option>
-          white
+          splatter
         </option>
         <option>
-          blue
+          sweat
+        </option>
+        <option>
+          jort
         </option>
       </select>
     </div>
