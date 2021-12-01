@@ -1,5 +1,14 @@
+html{
+    background-color: black;
+}
+
 main{
     background-color: #272838;
     display: grid;   
     grid-template-columns: 1fr 2fr 1fr;
+}
+
+footer{
+    font-size: 10%;
+    color: white;
 }
