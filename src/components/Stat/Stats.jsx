@@ -19,6 +19,7 @@ function Stats({
             <input
                 id='catchphrase'
                 name='catchphrase'
+                aria-label='catchphrase-input'
                 data-testid='catchphrase-input' 
                 type='text' 
                 value={catchPhrase}

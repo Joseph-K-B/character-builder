@@ -4,6 +4,7 @@ exports[`should render input and button for stats 1`] = `
 <div>
   <section>
     <input
+      aria-label="catchphrase-input"
       data-testid="catchphrase-input"
       id="catchphrase"
       name="catchphrase"

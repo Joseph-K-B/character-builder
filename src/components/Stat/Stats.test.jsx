@@ -3,7 +3,7 @@ import Stats from "./Stats";
 
 it('should render input and button for stats', () => {
     const {container} = render(<Stats />);
-    const input = screen.getByTestId('catchphrase-input');
+    const input = screen.getByLabelText('catchphrase-input');
     const button = screen.getByRole('button');
 
     expect(input).toBeInTheDocument();
