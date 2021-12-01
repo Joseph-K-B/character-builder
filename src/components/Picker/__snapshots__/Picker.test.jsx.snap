@@ -15,6 +15,7 @@ exports[`should render picker component 1`] = `
         Head
       </label>
       <select
+        class="select"
         id="head"
         name="head"
       >
@@ -56,6 +57,7 @@ exports[`should render picker component 1`] = `
         Torso
       </label>
       <select
+        class="select"
         id="torso"
         name="torso"
       >
@@ -85,6 +87,7 @@ exports[`should render picker component 1`] = `
         Bottom
       </label>
       <select
+        class="select"
         id="bottom"
         name="bottom"
       >

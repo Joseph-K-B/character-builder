@@ -19,6 +19,7 @@ exports[`should render container with all presentational components 1`] = `
             Head
           </label>
           <select
+            class="select"
             id="head"
             name="head"
           >
@@ -60,6 +61,7 @@ exports[`should render container with all presentational components 1`] = `
             Torso
           </label>
           <select
+            class="select"
             id="torso"
             name="torso"
           >
@@ -89,6 +91,7 @@ exports[`should render container with all presentational components 1`] = `
             Bottom
           </label>
           <select
+            class="select"
             id="bottom"
             name="bottom"
           >

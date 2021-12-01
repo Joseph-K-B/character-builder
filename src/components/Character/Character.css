@@ -5,10 +5,10 @@
 .head-image{
     position: relative;
     top: 6.0%;
-    left:34.0%;
-    height: 5.5rem;
-    width: 5.5rem;
-    background-size: 5.5rem;
+    left:32.0%;
+    height: 6.5rem;
+    width: 6.5rem;
+    background-size: 6.5rem;
     background-repeat: no-repeat;
 }
 
@@ -24,10 +24,11 @@
 
 .bottom-image{
     position: relative;
-    top: -18.5%;
-    left: 18.0%;
-    height: 15.5rem;
-    width: 15.5rem;
-    background-size: 15.5rem;
+    top: -15.5%;
+    left: 20.5%;
+    height: 13.5rem;
+    width: 13.5rem;
+    max-width: 12rem;
+    background-size: 14.5rem;
     background-repeat: no-repeat;
 }

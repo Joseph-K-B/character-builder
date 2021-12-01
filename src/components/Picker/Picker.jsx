@@ -38,7 +38,13 @@ function Picker({
         <section className='image-controls'>
             <div className='head-control'>
                 <label htmlFor='head' className='head-label'>Head</label>
-                <select id='head' name='head' key='head-select' value={head} onChange={handleHeadChange}>
+                <select 
+                    id='head' 
+                    name='head' 
+                    key='head-select' 
+                    value={head} 
+                    onChange={handleHeadChange} 
+                    className='select'>
                     {heads.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
@@ -46,7 +52,7 @@ function Picker({
             </div>
             <div className='torso-control'>
             <label htmlFor='torso'>Torso</label>
-                <select id='torso' name='torso' key='torso-select' value={torso} onChange={handleTorsoChange}>
+                <select id='torso' name='torso' key='torso-select' value={torso} onChange={handleTorsoChange} className='select'>
                     {torsos.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
@@ -54,7 +60,13 @@ function Picker({
             </div>
             <div className='bottom-control'>
             <label htmlFor='torso'>Bottom</label>
-                <select id='bottom' name='bottom' key='bottom-select' value={bottom} onChange={handleBottomChange}>
+                <select 
+                    id='bottom' 
+                    name='bottom' 
+                    key='bottom-select' 
+                    value={bottom} 
+                    onChange={handleBottomChange} 
+                    className='select'>
                     {bottoms.map((pic) => (
                         <option key={pic}>{pic}</option>
                     ))}
