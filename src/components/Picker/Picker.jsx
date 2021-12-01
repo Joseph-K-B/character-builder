@@ -76,4 +76,4 @@ function Picker({
     )
 }
 
-export default Picker
+export default Picker;
