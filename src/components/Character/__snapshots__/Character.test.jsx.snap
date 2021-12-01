@@ -2,19 +2,24 @@
 
 exports[`should render all elements on character page 1`] = `
 <div>
-  <section>
+  <section
+    class="image-section"
+  >
     <figure
       aria-label="head"
+      class="head-image"
       data-testid="head"
       style="height: 5.5rem; width: 5.5rem; background-size: 5.5rem; background-image: url(./undefined-head.png); background-repeat: no-repeat;"
     />
     <figure
       aria-label="torso"
+      class="torso-image"
       data-testid="torso"
       style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-torso.png); background-repeat: no-repeat;"
     />
     <figure
       aria-label="bottom"
+      class="bottom-image"
       data-testid="bottom"
       style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-bottom.png); background-repeat: no-repeat;"
     />

@@ -2,7 +2,9 @@
 
 exports[`should render input and button for stats 1`] = `
 <div>
-  <section>
+  <section
+    class="stat-controls"
+  >
     <input
       aria-label="catchphrase-input"
       data-testid="catchphrase-input"

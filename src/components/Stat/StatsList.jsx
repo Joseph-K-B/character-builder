@@ -1,19 +1,25 @@
 import React from 'react';
 
 function StatList({ 
-    catchPhraseArr
+    catchPhraseArr,
+    headCount,
+    torsoCount,
+    bottomCount
  }){
      return (
-     <div>
-<ul aria-label='catch-list'>Catchphrases</ul>
-    {catchPhraseArr.map((catchPhrase) => (
         <>
-            <li key={catchPhrase} data-testid='list-items'>
-                "{catchPhrase}"
-            </li>
-        </>
+        <div>
+            <p aria-label='change-count'> 
+                The head of your charachter has been updated {headCount} times,
+                the torso updated {torsoCount}, and the legs updated {bottomCount} times.</p>
+            <ul aria-label='catch-list'>Catchphrases</ul>
+            {catchPhraseArr.map((catchPhrase) => (
+                <li key={catchPhrase} data-testid='list-items'>
+                    "{catchPhrase}"
+                </li>
     ))}
-</div>
+        </div>
+    </>
     );
 }
 

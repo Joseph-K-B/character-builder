@@ -1,21 +1,14 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import React from "react";
+import '../Stat/Stats.css'
 
 function Stats({
     catchPhrase,
     setCatchPhrase,
-    catchPhraseArr,
-    setCatchPhraseArr,
     handleClick
 }) {
-    // const onButtonClick = () => {
-    //     console.log('BUTTON')
-    //     const newCatchPhrase = {catchPhrase}
-    //     const newCatchPhraseArr = (prevState) => ([...prevState, newCatchPhrase])
-    //     return newCatchPhraseArr
-    // }
     return (
-        <section>
+        <section className='stat-controls'>
             <input
                 id='catchphrase'
                 name='catchphrase'

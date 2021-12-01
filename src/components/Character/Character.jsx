@@ -1,4 +1,5 @@
 import React from "react";
+import '../Character/Character.css'
 
 function Character({
     head,
@@ -9,8 +10,9 @@ function Character({
     setBottom
 }) {
     return (
-        <section>
+        <section className='image-section'>
             <figure
+            className='head-image'
             aria-label='head'
             data-testid='head'
             value={head}
@@ -24,6 +26,7 @@ function Character({
               }}>
             </figure>
             <figure
+            className='torso-image'
             aria-label='torso'
             data-testid='torso'
             value={torso}
@@ -37,6 +40,7 @@ function Character({
               }}>
             </figure>
             <figure
+            className='bottom-image'
             aria-label='bottom'
             data-testid='bottom'
             value={bottom}

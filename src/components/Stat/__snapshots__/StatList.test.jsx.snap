@@ -3,6 +3,14 @@
 exports[`should render unordered list of catchphrases 1`] = `
 <div>
   <div>
+    <p
+      aria-label="change-count"
+    >
+      The head of your charachter has been updated 
+       times, the torso updated 
+      , and the legs updated 
+       times.
+    </p>
     <ul
       aria-label="catch-list"
     >
