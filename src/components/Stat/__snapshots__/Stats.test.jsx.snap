@@ -8,14 +8,19 @@ exports[`should render input and button for stats 1`] = `
     <h1>
       Add Catchphrase
     </h1>
-    <input
-      aria-label="catchphrase-input"
-      data-testid="catchphrase-input"
-      id="catchphrase"
-      name="catchphrase"
-      type="text"
-      value=""
-    />
+    <span
+      class="catch-group"
+    >
+      <input
+        aria-label="catchphrase-input"
+        class="input"
+        data-testid="catchphrase-input"
+        id="catchphrase"
+        name="catchphrase"
+        type="text"
+        value=""
+      />
+    </span>
     <label
       for="catchphrase"
     />
