@@ -17,14 +17,14 @@ exports[`should render unordered list of catchphrases 1`] = `
       Catchphrases
     </ul>
     <li
-      data-testid="list-items"
+      aria-label="list-items"
     >
       "
       hello
       "
     </li>
     <li
-      data-testid="list-items"
+      aria-label="list-items"
     >
       "
       goodbye

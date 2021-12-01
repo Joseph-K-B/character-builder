@@ -14,7 +14,7 @@ function StatList({
                 the torso updated {torsoCount}, and the legs updated {bottomCount} times.</p>
             <ul aria-label='catch-list'>Catchphrases</ul>
             {catchPhraseArr.map((catchPhrase) => (
-                <li key={catchPhrase} data-testid='list-items'>
+                <li key={catchPhrase} aria-label='list-items'>
                     "{catchPhrase}"
                 </li>
     ))}

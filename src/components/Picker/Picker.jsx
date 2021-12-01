@@ -15,9 +15,9 @@ function Picker({
     bottomCount,
     setBottomCount
 }) {
-    const heads = ['dog', 'cat']
-    const torsos = ['leather', 'suit']
-    const bottoms = ['jeans']
+    const heads = ['dog', 'dog-2', 'dog-3', 'duck', 'horse','cat']
+    const torsos = ['leather', 'suit', 'pink']
+    const bottoms = ['jeans', 'white', 'blue']
 
     const handleHeadChange= (e) => {
         setHead(e.target.value)
@@ -33,7 +33,7 @@ function Picker({
         setBottom(e.target.value)
         setBottomCount(bottomCount + 1)
     };
-    
+
     return (
         <section className='image-controls'>
             <div>

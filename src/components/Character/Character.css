@@ -1,3 +1,35 @@
 .image-section{
     background-color: blueviolet;
 }
+
+.head-image{
+    position: relative;
+    top: 6.0%;
+    left: 25.5%;
+    height: 5.5rem;
+    width: 5.5rem;
+    max-height: 5.5rem;
+    max-width: 5.5rem;
+    background-size: 5.5rem;
+    background-repeat: no-repeat;
+}
+
+.torso-image{
+    position: relative;
+    top: 0.5%;
+    left: 13%;
+    height: 15.5rem;
+    width: 15.5rem;
+    background-size: 10.5rem;
+    background-repeat: no-repeat;
+}
+
+.bottom-image{
+    position: relative;
+    top: -20.5%;
+    left: 0%;
+    height: 15.5rem;
+    width: 15.5rem;
+    background-size: 15.5rem;
+    background-repeat: no-repeat;
+}

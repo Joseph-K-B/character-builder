@@ -19,6 +19,18 @@ exports[`should render picker component 1`] = `
           dog
         </option>
         <option>
+          dog-2
+        </option>
+        <option>
+          dog-3
+        </option>
+        <option>
+          duck
+        </option>
+        <option>
+          horse
+        </option>
+        <option>
           cat
         </option>
       </select>
@@ -39,6 +51,9 @@ exports[`should render picker component 1`] = `
         <option>
           suit
         </option>
+        <option>
+          pink
+        </option>
       </select>
     </div>
     <div>
@@ -53,6 +68,12 @@ exports[`should render picker component 1`] = `
       >
         <option>
           jeans
+        </option>
+        <option>
+          white
+        </option>
+        <option>
+          blue
         </option>
       </select>
     </div>
