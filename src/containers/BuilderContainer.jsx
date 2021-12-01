@@ -22,6 +22,7 @@ function BuilderContainer() {
     return (
         <>
         <main>
+            <section className='controls'>
             <Picker
                 className='image-controls'
                 head={head}
@@ -37,6 +38,13 @@ function BuilderContainer() {
                 bottomCount={bottomCount}
                 setBottomCount={setBottomCount}
             />
+            <Stats
+                className='stat-controls' 
+                catchPhrase={catchPhrase}
+                setCatchPhrase={setCatchPhrase}
+                handleClick={handleClick}
+            />
+            </section>
             <Character
                 className='image-display'
                 head={head}
@@ -45,12 +53,6 @@ function BuilderContainer() {
                 setTorso={setTorso}
                 bottom={bottom}
                 setBottom={setBottom} 
-            />
-            <Stats
-                className='stat-controls' 
-                catchPhrase={catchPhrase}
-                setCatchPhrase={setCatchPhrase}
-                handleClick={handleClick}
             />
             <StatList
                 className='stat-display'

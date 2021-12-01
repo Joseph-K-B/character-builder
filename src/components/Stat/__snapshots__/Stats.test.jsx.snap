@@ -5,6 +5,9 @@ exports[`should render input and button for stats 1`] = `
   <section
     class="stat-controls"
   >
+    <h1>
+      Add Catchphrase
+    </h1>
     <input
       aria-label="catchphrase-input"
       data-testid="catchphrase-input"

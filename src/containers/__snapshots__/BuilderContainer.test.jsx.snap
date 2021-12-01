@@ -4,80 +4,107 @@ exports[`should render container with all presentational components 1`] = `
 <div>
   <main>
     <section
-      class="image-controls"
+      class="controls"
     >
-      <div>
+      <section
+        class="image-controls"
+      >
+        <div>
+          <label
+            for="head"
+          >
+            Head
+          </label>
+          <select
+            id="head"
+            name="head"
+          >
+            <option>
+              dog
+            </option>
+            <option>
+              dog-2
+            </option>
+            <option>
+              dog-3
+            </option>
+            <option>
+              duck
+            </option>
+            <option>
+              horse
+            </option>
+            <option>
+              cat
+            </option>
+          </select>
+        </div>
+        <div>
+          <label
+            for="torso"
+          >
+            Torso
+          </label>
+          <select
+            id="torso"
+            name="torso"
+          >
+            <option>
+              leather
+            </option>
+            <option>
+              suit
+            </option>
+            <option>
+              pink
+            </option>
+          </select>
+        </div>
+        <div>
+          <label
+            for="torso"
+          >
+            Bottom
+          </label>
+          <select
+            id="bottom"
+            name="bottom"
+          >
+            <option>
+              jeans
+            </option>
+            <option>
+              white
+            </option>
+            <option>
+              blue
+            </option>
+          </select>
+        </div>
+      </section>
+      <section
+        class="stat-controls"
+      >
+        <h1>
+          Add Catchphrase
+        </h1>
+        <input
+          aria-label="catchphrase-input"
+          data-testid="catchphrase-input"
+          id="catchphrase"
+          name="catchphrase"
+          type="text"
+          value=""
+        />
         <label
-          for="head"
+          for="catchphrase"
+        />
+        <button
+          type="button"
         >
-          Head
-        </label>
-        <select
-          id="head"
-          name="head"
-        >
-          <option>
-            dog
-          </option>
-          <option>
-            dog-2
-          </option>
-          <option>
-            dog-3
-          </option>
-          <option>
-            duck
-          </option>
-          <option>
-            horse
-          </option>
-          <option>
-            cat
-          </option>
-        </select>
-      </div>
-      <div>
-        <label
-          for="torso"
-        >
-          Torso
-        </label>
-        <select
-          id="torso"
-          name="torso"
-        >
-          <option>
-            leather
-          </option>
-          <option>
-            suit
-          </option>
-          <option>
-            pink
-          </option>
-        </select>
-      </div>
-      <div>
-        <label
-          for="torso"
-        >
-          Bottom
-        </label>
-        <select
-          id="bottom"
-          name="bottom"
-        >
-          <option>
-            jeans
-          </option>
-          <option>
-            white
-          </option>
-          <option>
-            blue
-          </option>
-        </select>
-      </div>
+          Submit
+        </button>
+      </section>
     </section>
     <section
       class="image-section"
@@ -105,26 +132,8 @@ exports[`should render container with all presentational components 1`] = `
       />
     </section>
     <section
-      class="stat-controls"
+      class="catchphrase-list"
     >
-      <input
-        aria-label="catchphrase-input"
-        data-testid="catchphrase-input"
-        id="catchphrase"
-        name="catchphrase"
-        type="text"
-        value=""
-      />
-      <label
-        for="catchphrase"
-      />
-      <button
-        type="button"
-      >
-        Submit
-      </button>
-    </section>
-    <div>
       <p
         aria-label="change-count"
       >
@@ -141,7 +150,7 @@ exports[`should render container with all presentational components 1`] = `
       >
         Catchphrases
       </ul>
-    </div>
+    </section>
   </main>
 </div>
 `;

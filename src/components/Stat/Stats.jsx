@@ -9,6 +9,8 @@ function Stats({
 }) {
     return (
         <section className='stat-controls'>
+        <>
+            <h1>Add Catchphrase</h1>
             <input
                 id='catchphrase'
                 name='catchphrase'
@@ -20,6 +22,7 @@ function Stats({
             />
             <label htmlFor='catchphrase' />
             <button type='button' onClick={handleClick}>Submit</button>
+            </>
         </section>
     )
 }

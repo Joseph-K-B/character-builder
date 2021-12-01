@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Stat/StatList.css'
 
 function StatList({ 
     catchPhraseArr,
@@ -8,7 +9,7 @@ function StatList({
  }){
      return (
         <>
-        <div>
+        <section className='catchphrase-list'>
             <p aria-label='change-count'> 
                 The head of your charachter has been updated {headCount} times,
                 the torso updated {torsoCount}, and the legs updated {bottomCount} times.</p>
@@ -18,7 +19,7 @@ function StatList({
                     "{catchPhrase}"
                 </li>
     ))}
-        </div>
+        </section>
     </>
     );
 }
