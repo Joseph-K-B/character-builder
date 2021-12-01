@@ -2,12 +2,13 @@ import { render, screen } from "@testing-library/react";
 import Character from "./Character";
 
 it('should render all elements on character page', () => {
-    const pres = render(<Character />);
-    const headImg = screen.getByTestId(/head/);
-    const torsoImg = screen.getByTestId(/torso/);
-    const bottomImg = screen.getByTestId(/bottom/);
+    const {container} = render(<Character />);
+    const headImg = screen.getByLabelText(/head/);
+    const torsoImg = screen.getByLabelText(/torso/);
+    const bottomImg = screen.getByLabelText(/bottom/);
+
     expect(headImg).toBeInTheDocument();
     expect(torsoImg).toBeInTheDocument();
     expect(bottomImg).toBeInTheDocument();
-    expect (pres).toMatchSnapshot();
+    expect (container).toMatchSnapshot();
 });

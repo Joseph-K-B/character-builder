@@ -11,6 +11,7 @@ function Character({
     return (
         <section>
             <figure
+            aria-label='head'
             data-testid='head'
             value={head}
             onChange={(e) => setHead(e.target.value)}
@@ -23,6 +24,7 @@ function Character({
               }}>
             </figure>
             <figure
+            aria-label='torso'
             data-testid='torso'
             value={torso}
             onChange={(e) => setTorso(e.target.value)}
@@ -35,6 +37,7 @@ function Character({
               }}>
             </figure>
             <figure
+            aria-label='bottom'
             data-testid='bottom'
             value={bottom}
             onChange={(e) => setBottom(e.target.value)}

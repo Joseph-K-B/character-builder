@@ -1,92 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render all elements on character page 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <section>
-        <figure
-          data-testid="head"
-          style="height: 5.5rem; width: 5.5rem; background-size: 5.5rem; background-image: url(./undefined-head.png); background-repeat: no-repeat;"
-        />
-        <figure
-          data-testid="torso"
-          style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-torso.png); background-repeat: no-repeat;"
-        />
-        <figure
-          data-testid="bottom"
-          style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-bottom.png); background-repeat: no-repeat;"
-        />
-      </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section>
-      <figure
-        data-testid="head"
-        style="height: 5.5rem; width: 5.5rem; background-size: 5.5rem; background-image: url(./undefined-head.png); background-repeat: no-repeat;"
-      />
-      <figure
-        data-testid="torso"
-        style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-torso.png); background-repeat: no-repeat;"
-      />
-      <figure
-        data-testid="bottom"
-        style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-bottom.png); background-repeat: no-repeat;"
-      />
-    </section>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+<div>
+  <section>
+    <figure
+      aria-label="head"
+      data-testid="head"
+      style="height: 5.5rem; width: 5.5rem; background-size: 5.5rem; background-image: url(./undefined-head.png); background-repeat: no-repeat;"
+    />
+    <figure
+      aria-label="torso"
+      data-testid="torso"
+      style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-torso.png); background-repeat: no-repeat;"
+    />
+    <figure
+      aria-label="bottom"
+      data-testid="bottom"
+      style="height: 15rem; width: 15rem; background-size: 10rem; background-image: url(./undefined-bottom.png); background-repeat: no-repeat;"
+    />
+  </section>
+</div>
 `;

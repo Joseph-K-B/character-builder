@@ -3,10 +3,11 @@ import StatList from "./StatsList";
 
 
 it('should render unordered list of catchphrases', () => {
-    const pres = render(<StatList catchPhraseArr={['hello', 'goodbye']}/>);
+    const {container} = render(<StatList catchPhraseArr={['hello', 'goodbye']}/>);
     const list = screen.getByLabelText('catch-list');
     const listItems = screen.getAllByTestId('list-items');
+
     expect(list).toBeInTheDocument();
     expect(listItems).toBeDefined();
-    expect(pres).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
 });
