@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render unordered list of catchphrases 1`] = `
+<div>
+  <section
+    class="catchphrase-list"
+  >
+    <p
+      aria-label="change-count"
+    >
+      The head of your charachter has been updated 
+       times, the torso updated 
+      , and the legs updated 
+       times.
+    </p>
+    <ul
+      aria-label="catch-list"
+    >
+      Catchphrases
+    </ul>
+    <li
+      aria-label="list-items"
+    >
+      "
+      hello
+      "
+    </li>
+    <li
+      aria-label="list-items"
+    >
+      "
+      goodbye
+      "
+    </li>
+  </section>
+</div>
+`;

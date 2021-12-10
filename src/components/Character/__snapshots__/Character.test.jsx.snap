@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render all elements on character page 1`] = `
+<div>
+  <section
+    class="image-section"
+  >
+    <figure
+      aria-label="head"
+      class="head-image"
+      data-testid="head"
+      style="background-image: url(./undefined-head.png);"
+    />
+    <figure
+      aria-label="torso"
+      class="torso-image"
+      data-testid="torso"
+      style="background-image: url(./undefined-torso.png);"
+    />
+    <figure
+      aria-label="bottom"
+      class="bottom-image"
+      data-testid="bottom"
+      style="background-image: url(./undefined-bottom.png);"
+    />
+  </section>
+</div>
+`;
